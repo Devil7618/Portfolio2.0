@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080611">
+  <title>Malik Abdul Moiz | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-line"></div>
+  <div class="loader-small">WELCOME TO MY WORLD</div>
+  <div id="loaderName"></div>
+  <div class="loader-small">PORTFOLIO</div>
+</div>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-dot"></span>
+    MALIK ABDUL MOIZ
+  </div>
+
+  <div class="page-counter">
+    <span id="currentPage">01</span>
+    <span class="counter-line"></span>
+    <span id="totalPages">15</span>
+  </div>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- MENU -->
+<nav class="menu" id="menu">
+  <div class="menu-head">
+    <span>NAVIGATION</span>
+    <button id="closeMenu">×</button>
+  </div>
+
+  <div class="menu-links">
+    <button data-go="0">01 — Home</button>
+    <button data-go="1">02 — Who I Am</button>
+    <button data-go="2">03 — My Qualities</button>
+    <button data-go="3">04 — My Journey</button>
+    <button data-go="4">05 — Leader in Me</button>
+    <button data-go="5">06 — Interests</button>
+    <button data-go="6">07 — My Photos</button>
+    <button data-go="7">08 — Favourite Hero</button>
+    <button data-go="8">09 — My Setup</button>
+    <button data-go="9">10 — My Projects</button>
+    <button data-go="10">11 — My Goals</button>
+    <button data-go="11">12 — Friend View</button>
+    <button data-go="12">13 — More About Me</button>
+    <button data-go="13">14 — Driving Collection</button>
+    <button data-go="14">15 — Future</button>
+  </div>
+</nav>
+
+<div class="progress">
+  <div id="progressBar"></div>
+</div>
+
+<main id="portfolio">
+
+<!-- 01 HOME -->
+<section class="page active">
+  <div class="page-inner home-page">
+    <div class="hero-glow"></div>
+
+    <div class="eyebrow">PERSONAL PORTFOLIO / 2026</div>
+
+    <h1>
+      MALIK<br>
+      <span>ABDUL MOIZ</span>
+    </h1>
+
+    <p class="hero-description">
+      A personal space built around who I am, what I enjoy,
+      what I have learned, and where I want to go next.
+    </p>
+
+    <div class="hero-tags">
+      <span>CURIOUS</span>
+      <span>CREATIVE</span>
+      <span>DETERMINED</span>
+    </div>
+
+    <button class="next-btn" data-next>
+      NEXT <span>→</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- 02 WHO I AM -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">02</div>
+
+    <div class="eyebrow">IDENTITY</div>
+    <h2>Who I <span>Am</span></h2>
+
+    <div class="about-layout">
+      <div class="about-main">
+        <p class="big-text">
+          I am someone who likes to understand things rather than simply
+          accept them. I enjoy learning, experimenting and turning ideas
+          into something real.
+        </p>
+
+        <p>
+          I am naturally curious and I like discovering how technology,
+          games, websites and different systems work. When something
+          interests me, I can spend a lot of time trying to understand
+          every part of it.
+        </p>
+
+        <p>
+          I also believe that improvement comes from experience. Mistakes
+          are not the end of something — they are information that can
+          help me make the next attempt better.
+        </p>
+      </div>
+
+      <div class="identity-card">
+        <div class="identity-symbol">M</div>
+        <h3>MY MINDSET</h3>
+        <p>
+          Learn it.<br>
+          Understand it.<br>
+          Improve it.<br>
+          Build it.
+        </p>
+      </div>
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 03 QUALITIES -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">03</div>
+    <div class="eyebrow">CHARACTER</div>
+    <h2>My <span>Qualities</span></h2>
+
+    <div class="quality-grid">
+      <article class="quality-card">
+        <b>01</b>
+        <h3>Curiosity</h3>
+        <p>I like discovering how things work and asking questions.</p>
+      </article>
+
+      <article class="quality-card">
+        <b>02</b>
+        <h3>Determination</h3>
+        <p>When something matters to me, I keep working until I improve.</p>
+      </article>
+
+      <article class="quality-card">
+        <b>03</b>
+        <h3>Creativity</h3>
+        <p>I enjoy creating ideas, designs and projects of my own.</p>
+      </article>
+
+      <article class="quality-card">
+        <b>04</b>
+        <h3>Responsibility</h3>
+        <p>I understand that good results require effort and consistency.</p>
+      </article>
+
+      <article class="quality-card">
+        <b>05</b>
+        <h3>Adaptability</h3>
+        <p>I can change my approach when something is not working.</p>
+      </article>
+
+      <article class="quality-card">
+        <b>06</b>
+        <h3>Leadership</h3>
+        <p>I like taking initiative and helping turn ideas into action.</p>
+      </article>
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 04 JOURNEY -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">04</div>
+    <div class="eyebrow">GROWTH</div>
+    <h2>My <span>Journey</span></h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div>
+          <small>01 / EXPLORING</small>
+          <h3>Curiosity came first</h3>
+          <p>
+            Games and technology made me interested in computers and
+            everything happening behind the screen.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div>
+          <small>02 / LEARNING</small>
+          <h3>I started building</h3>
+          <p>
+            Instead of only using technology, I became interested in
+            creating websites, projects and experiments myself.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div>
+          <small>03 / LEADERSHIP</small>
+          <h3>Learning to take initiative</h3>
+          <p>
+            Leader in Me helped me think more about responsibility,
+            teamwork, priorities and taking ownership.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div>
+          <small>04 / NEXT</small>
+          <h3>The journey continues</h3>
+          <p>
+            There is still a lot to learn. My goal is to keep improving
+            instead of staying comfortable with what I already know.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 05 LEADER IN ME -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">05</div>
+    <div class="eyebrow">LEADERSHIP</div>
+    <h2>Leader <span>in Me</span></h2>
+
+    <p class="intro">
+      The 8 Habits give me a framework for becoming more responsible,
+      purposeful and effective.
+    </p>
+
+    <div class="habit-grid">
+
+      <div class="habit">
+        <strong>01</strong>
+        <h3>Be Proactive</h3>
+        <p>Take responsibility for my choices and actions.</p>
+      </div>
+
+      <div class="habit">
+        <strong>02</strong>
+        <h3>Begin With the End in Mind</h3>
+        <p>Know what I want to achieve before I start.</p>
+      </div>
+
+      <div class="habit">
+        <strong>03</strong>
+        <h3>Put First Things First</h3>
+        <p>Prioritize what is important instead of wasting time.</p>
+      </div>
+
+      <div class="habit">
+        <strong>04</strong>
+        <h3>Think Win-Win</h3>
+        <p>Look for solutions where everyone can benefit.</p>
+      </div>
+
+      <div class="habit">
+        <strong>05</strong>
+        <h3>Seek First to Understand</h3>
+        <p>Listen and understand before expecting to be understood.</p>
+      </div>
+
+      <div class="habit">
+        <strong>06</strong>
+        <h3>Synergize</h3>
+        <p>Use teamwork and different strengths to achieve better results.</p>
+      </div>
+
+      <div class="habit">
+        <strong>07</strong>
+        <h3>Sharpen the Saw</h3>
+        <p>Keep improving myself and maintaining balance.</p>
+      </div>
+
+      <div class="habit">
+        <strong>08</strong>
+        <h3>Find Your Voice & Inspire Others</h3>
+        <p>Develop my strengths and use them to positively influence others.</p>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 06 INTERESTS -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">06</div>
+    <div class="eyebrow">WHAT I ENJOY</div>
+    <h2>My <span>Interests</span></h2>
+
+    <div class="interest-grid">
+
+      <article class="interest-card">
+        <div class="interest-icon">⌁</div>
+        <h3>Technology</h3>
+        <p>
+          Computers, software, websites and discovering what technology
+          can actually do.
+        </p>
+      </article>
+
+      <article class="interest-card">
+        <div class="interest-icon">◈</div>
+        <h3>Gaming</h3>
+        <p>
+          Minecraft and other games are not only entertainment for me;
+          they also inspire creativity and experimentation.
+        </p>
+      </article>
+
+      <article class="interest-card">
+        <div class="interest-icon">✦</div>
+        <h3>Cars</h3>
+        <p>
+          Performance, design and the feeling of being behind the wheel
+          are things I genuinely enjoy.
+        </p>
+      </article>
+
+      <article class="interest-card">
+        <div class="interest-icon">S</div>
+        <h3>Spider-Man</h3>
+        <p>
+          Among all characters, Spider-Man is my favourite. The character's
+          personality, responsibility and determination stand out to me.
+        </p>
+      </article>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 07 MY PHOTOS -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">07</div>
+    <div class="eyebrow">PERSONAL</div>
+    <h2>My <span>Photos</span></h2>
+
+    <p class="intro">
+      A few moments that are part of my story.
+      Click any photo to view it larger.
+    </p>
+
+    <div class="photo-grid personal-photos">
+
+      <button class="photo-card">
+        <img src="myphotos1.jpg" alt="My photo 1">
+        <span>01</span>
+      </button>
+
+      <button class="photo-card">
+        <img src="myphotos2.jpg" alt="My photo 2">
+        <span>02</span>
+      </button>
+
+      <button class="photo-card">
+        <img src="myphotos3.jpg" alt="My photo 3">
+        <span>03</span>
+      </button>
+
+      <button class="photo-card">
+        <img src="myphotos4.jpg" alt="My photo 4">
+        <span>04</span>
+      </button>
+
+      <button class="photo-card">
+        <img src="myphotos5.jpeg" alt="My photo 5">
+        <span>05</span>
+      </button>
+
+      <button class="photo-card">
+        <img src="myphotos6.jpg" alt="My photo 6">
+        <span>06</span>
+      </button>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 08 FAVOURITE HERO -->
+<section class="page spider-page">
+  <div class="page-inner">
+    <div class="section-number">08</div>
+    <div class="eyebrow spider-eyebrow">MY FAVOURITE HERO</div>
+
+    <div class="spider-layout">
+
+      <div class="spider-copy">
+        <div class="spider-label">MARVEL / HERO</div>
+
+        <h2>
+          Spider-<span>Man</span>
+        </h2>
+
+        <p class="big-text">
+          My favourite character among all characters.
+        </p>
+
+        <p>
+          What makes Spider-Man special to me is that behind the powers
+          there is still a person who has responsibilities, problems,
+          mistakes and choices to make.
+        </p>
+
+        <p>
+          I like the combination of courage, intelligence, humour and
+          responsibility. Spider-Man keeps moving forward even when
+          things become difficult.
+        </p>
+
+        <div class="spider-quote">
+          <span>01</span>
+          <p>Power means more when it comes with responsibility.</p>
+        </div>
+      </div>
+
+      <div class="spider-photo">
+        <div class="spider-frame">
+<img src="spiderman.jpg" alt="Spider-Man">
+        </div>
+        <div class="spider-caption">MY FAVOURITE HERO</div>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 09 SETUP -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">09</div>
+    <div class="eyebrow">MY SPACE</div>
+    <h2>My <span>Setup</span></h2>
+
+    <div class="setup-layout">
+
+      <div class="setup-text">
+        <p class="big-text">
+          The setup where I spend time gaming, learning,
+          experimenting and building things.
+        </p>
+
+        <div class="spec-list">
+          <div><span>CPU</span><b>Intel Core i7</b></div>
+          <div><span>MEMORY</span><b>16 GB RAM</b></div>
+          <div><span>DISPLAY</span><b>1360 × 768</b></div>
+          <div><span>OS</span><b>Windows 10</b></div>
+        </div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata">
+          <source src="setup.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+
+        <div class="video-label">SETUP VIDEO</div>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 10 PROJECTS -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">10</div>
+    <div class="eyebrow">CREATION</div>
+    <h2>My <span>Projects</span></h2>
+
+    <div class="project-list">
+
+      <article class="project">
+        <div class="project-number">01</div>
+        <div>
+          <h3>Personal Portfolio</h3>
+          <p>
+            A website designed to represent my identity, interests,
+            achievements, projects and future direction.
+          </p>
+        </div>
+        <span class="project-arrow">↗</span>
+      </article>
+
+      <article class="project">
+        <div class="project-number">02</div>
+        <div>
+          <h3>Leader in Me Portfolio</h3>
+          <p>
+            A digital project focused on leadership, habits,
+            personal growth and reflection.
+          </p>
+        </div>
+        <span class="project-arrow">↗</span>
+      </article>
+
+      <article class="project">
+        <div class="project-number">03</div>
+        <div>
+          <h3>Web Experiments</h3>
+          <p>
+            Different HTML, CSS and JavaScript experiments that help
+            me understand how websites are designed and developed.
+          </p>
+        </div>
+        <span class="project-arrow">↗</span>
+      </article>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 11 GOALS -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">11</div>
+    <div class="eyebrow">THE FUTURE</div>
+    <h2>My <span>Goals</span></h2>
+
+    <div class="goal-layout">
+
+      <div class="goal-big">
+        <span>01</span>
+        <h3>Keep Learning</h3>
+        <p>
+          Continue developing my knowledge instead of stopping
+          when something becomes difficult.
+        </p>
+      </div>
+
+      <div class="goal-big">
+        <span>02</span>
+        <h3>Build Better</h3>
+        <p>
+          Create projects that are more useful, creative and
+          professional every time.
+        </p>
+      </div>
+
+      <div class="goal-big">
+        <span>03</span>
+        <h3>Lead Better</h3>
+        <p>
+          Become someone who can take responsibility and
+          positively influence a team.
+        </p>
+      </div>
+
+      <div class="goal-big">
+        <span>04</span>
+        <h3>Think Bigger</h3>
+        <p>
+          Keep exploring technology and opportunities that can
+          turn ideas into something meaningful.
+        </p>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 12 FRIEND VIEW -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">12</div>
+    <div class="eyebrow">FRIEND VIEW</div>
+    <h2>Good Points <span>About Me</span></h2>
+
+    <p class="intro">
+      If I were introducing myself to a new friend, these are some
+      of the qualities I would want them to notice.
+    </p>
+
+    <div class="friend-card">
+
+      <div class="friend-line">
+        <span>01</span>
+        <div>
+          <h3>I'm Curious</h3>
+          <p>I genuinely like learning how things work.</p>
+        </div>
+      </div>
+
+      <div class="friend-line">
+        <span>02</span>
+        <div>
+          <h3>I Like Improving</h3>
+          <p>I don't want to stay at the same level when I know I can get better.</p>
+        </div>
+      </div>
+
+      <div class="friend-line">
+        <span>03</span>
+        <div>
+          <h3>I Take Ideas Seriously</h3>
+          <p>If I get an idea that interests me, I like turning it into something real.</p>
+        </div>
+      </div>
+
+      <div class="friend-line">
+        <span>04</span>
+        <div>
+          <h3>I Keep My Own Identity</h3>
+          <p>I like having my own interests, opinions and direction.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 13 MORE ABOUT ME -->
+<section class="page">
+  <div class="page-inner">
+    <div class="section-number">13</div>
+    <div class="eyebrow">BEYOND THE BASICS</div>
+    <h2>More About <span>Me</span></h2>
+
+    <div class="more-grid">
+
+      <div class="more-card">
+        <span>01</span>
+        <h3>Independent Thinking</h3>
+        <p>
+          I like forming my own understanding instead of blindly
+          following what everyone else says.
+        </p>
+      </div>
+
+      <div class="more-card">
+        <span>02</span>
+        <h3>Attention to Detail</h3>
+        <p>
+          Small things matter to me, especially when I'm building
+          or designing something.
+        </p>
+      </div>
+
+      <div class="more-card">
+        <span>03</span>
+        <h3>Experimenting</h3>
+        <p>
+          Trying different approaches helps me discover what actually
+          works for me.
+        </p>
+      </div>
+
+      <div class="more-card">
+        <span>04</span>
+        <h3>Always Moving</h3>
+        <p>
+          I would rather keep learning and improving than remain
+          completely comfortable.
+        </p>
+      </div>
+
+    </div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 14 DRIVING -->
+<section class="page driving-page">
+  <div class="page-inner">
+
+    <div class="section-number">14</div>
+    <div class="eyebrow">AUTOMOTIVE</div>
+    <h2>Driving <span>Collection</span></h2>
+
+    <p class="intro">
+      Cars are another part of what I enjoy — especially performance,
+      design and the experience around them.
+    </p>
+
+    <div class="driving-grid">
+
+    <video controls playsinline>
+        <source src="driving.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="video-box">
+    <video controls playsinline>
+        <source src="driving2.mp4" type="video/mp4">
+    </video>
+</div>
+
+    <button class="next-btn" data-next>NEXT <span>→</span></button>
+  </div>
+</section>
+
+
+<!-- 15 FUTURE -->
+<section class="page final-page">
+  <div class="page-inner">
+
+    <div class="final-glow"></div>
+
+    <div class="eyebrow">THE NEXT CHAPTER</div>
+
+    <h2>
+      THIS ISN'T<br>
+      THE <span>FINISH.</span>
+    </h2>
+
+    <p class="final-text">
+      This portfolio shows where I am right now.
+      The more important part is where I decide to go next.
+    </p>
+
+    <div class="final-statement">
+      <span>LEARN.</span>
+      <span>CREATE.</span>
+      <span>LEAD.</span>
+      <span>GROW.</span>
+    </div>
+
+    <div class="end-mark">
+      <div class="end-m">M</div>
+      <p>MALIK ABDUL MOIZ</p>
+      <small>PORTFOLIO / 2026</small>
+    </div>
+
+    <button class="back-btn final-back" data-prev>
+      ← BACK
+    </button>
+
+  </div>
+</section>
+
+</main>
+
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button id="closeLightbox">×</button>
+  <img id="lightboxImg" src="" alt="Expanded photo">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
