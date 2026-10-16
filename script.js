@@ -213,9 +213,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Broken assets remain visible as an explicit diagnostic instead of collapsing layout.
-  document.querySelectorAll("img,video").forEach(media => media.addEventListener("error", () => {
-    media.closest("button,figure,.video-frame")?.classList.add("asset-error");
-  }));
+  document.querySelectorAll("img,video").forEach(media => {
+    const markAssetError = () => media.closest("button,figure,.video-frame")?.classList.add("asset-error");
+    media.addEventListener("error", markAssetError);
+    if (media.tagName === "IMG" && media.complete && !media.naturalWidth) markAssetError();
+  });
 
   updateUI();
   requestAnimationFrame(() => pages[0].classList.add("entered"));
